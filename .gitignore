@@ -1,0 +1,43 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# *.db
+# *.sqlite3
+
+# Ignore environment-specific files
+.env
+venv/
+.vscode/
+.idea/
+*.iml
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data and database files
+# data/
+# *.csv
+# *.json
+# *.xlsx
+# *.sql
+# *.db
+
+# Ignore system and text editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.swn
+*~
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.log.*
+*.tmp
+
+# Ignore virtual environment settings
+Pipfile.lock
+Pipfile
